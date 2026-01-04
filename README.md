@@ -2,13 +2,22 @@
 
 This project simulates **inter-energy trading** among multiple groups of households or buildings.
 It models **prosumers** (who can produce and consume energy) and **consumers** (who only consume energy),
-with possible **shared batteries** within groups. 
+with possible **shared batteries** within groups.
+
+---
+
+**COPOWER cVPP online demonstration service (Deliverable D3.6.1)**
+
+This repository provides the executable technical demonstration component of the COPOWER online cVPP demonstration service (Deliverable D3.6.1). The complete demonstration service consists of three components: (i) this open-source executable implementation, (ii) a technical and methodological handbook documenting the models and assumptions, and (iii) an online service entry webpage hosted by the project. Together, these components form the COPOWER online cVPP demonstration service.
+
+---
 
 ## Features
 - Uses **synthetic data** for demand and solar production to maintain privacy.
 - Supports any number of **groups** and **users**.
 - Models **battery constraints, grid interactions, and peer-to-peer energy trading**.
 - Calculates **total cost per house and per group** over multiple days.
+
 
 
 ## Folder Structure
@@ -33,9 +42,11 @@ notebooks/main_demo.ipynb
 
 - This project uses synthetic data to protect privacy.  
 - Supports flexible configurations of groups, prosumers, consumers, and shared batteries.  
-- The methodology is based on the paper:  
-  **"Peer-to-Peer Energy Management Model for Residential Homes"**  
-  Najmeh Khajoei, Runar Unnthorsson, and Steinn Gudmundsson,  
-  Faculty of Industrial Engineering, Mechanical Engineering and Computer Science,  
-  University of Iceland.  
-  **Currently in the process of publishing in Nordic EIA 2025, Part I, LNCS 16095.**
+- The methodology implemented in this repository is based on the following published work:
+
+  **N. Khajoei, R. Unnþórsson, S. Guðmundsson**,  
+  *A Peer-to-Peer Energy Management Model for Residential Homes*,  
+  Nordic Energy Informatics Academy Conference, Springer, 2025.  
+  https://www.springerprofessional.de/en/peer-to-peer-energy-management-model-for-residential-homes/51647472
+
+
