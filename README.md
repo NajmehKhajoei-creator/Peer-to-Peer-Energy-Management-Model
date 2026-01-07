@@ -31,6 +31,13 @@ The code is **not** a live web service or production system. Instead:
 - It supports learning, replication, and adaptation of cVPP concepts rather than real-time operation or market participation.
 
 
+**Handbook as primary guide**  
+This repository is intended to be used together with the accompanying handbook:
+
+*AI-Enabled cVPP Demonstration Handbook: Simulating Peer-to-Peer Energy Sharing for Community-Based Virtual Power Plants (cVPP)*
+
+The handbook provides the main technical and methodological guidance, including step-by-step instructions, model explanations, and guidance for adapting or extending the code.  
+*(Online link to the handbook will be added once available)*
 
 
 ## Folder Structure
@@ -77,6 +84,7 @@ funded under the Interreg Northern Periphery and Arctic Programme.
 ## Quick Start
 Open `notebooks/main_demo.ipynb` in Jupyter Notebook.  
 Follow the step-by-step cells to explore inter-energy trading scenarios.
+
 
 
 
